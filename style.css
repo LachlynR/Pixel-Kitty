@@ -11,7 +11,8 @@
 main {
   width: 100vw;
   height: 100vh;
-  background-image: radial-gradient(circle at top left, rgba(255, 255, 255, 0.884), rgba(0, 0, 0, 0) 20%), linear-gradient(-0.005turn, #139a13 45%, #8585f5 45%);
+  background-image: radial-gradient(circle at top left, rgba(255, 255, 255, 0.884), rgba(0, 0, 0, 0) 20%), -webkit-gradient(linear, left bottom, left top, color-stop(45%, #139a13), color-stop(45%, #8585f5));
+  background-image: radial-gradient(circle at top left, rgba(255, 255, 255, 0.884), rgba(0, 0, 0, 0) 20%), linear-gradient(to top, #139a13 45%, #8585f5 45%);
 }
 
 .shadow {
